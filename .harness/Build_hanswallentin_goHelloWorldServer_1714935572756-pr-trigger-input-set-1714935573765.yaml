@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_hanswallentin_goHelloWorldServer_1714935572756-pr-trigger-input-set
+  identifier: Build_hanswallentin_goHelloWorldServer_1714935572756prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Enterprise_SE_Lab
+  pipeline:
+    identifier: Build_hanswallentin_goHelloWorldServer_1714935572756
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
